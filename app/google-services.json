@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147036991921",
+    "project_id": "realtimenews-42329",
+    "storage_bucket": "realtimenews-42329.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147036991921:android:fff490a6552f3ea1c7cd90",
+        "android_client_info": {
+          "package_name": "com.eslirodrigues.realtimenews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147036991921-2eb6a7ul3kofhrd1h4utnnrnfou9n2ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFWozhTEUGeg0JSXSezsNyh0useCATwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147036991921-2eb6a7ul3kofhrd1h4utnnrnfou9n2ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

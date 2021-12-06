@@ -1,4 +1,7 @@
 package com.eslirodrigues.realtimenews.data.model
 
-class News {
-}
+data class News(
+    val id: String = "",
+    val url: String = "",
+    val title: String = ""
+)

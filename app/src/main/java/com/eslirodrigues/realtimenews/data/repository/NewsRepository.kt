@@ -11,6 +11,9 @@ import com.google.firebase.ktx.Firebase
 class NewsRepository {
 
     private val database = Firebase.database
+    init {
+        database.setPersistenceEnabled(true)
+    }
     private val newsReference = database.getReference("news")
 
     fun getNews(liveData: MutableLiveData<List<News>>) {

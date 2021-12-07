@@ -17,6 +17,7 @@ class NewsRepository {
     private val newsReference = database.getReference("news")
 
     fun getNews(liveData: MutableLiveData<List<News>>) {
+        newsReference.keepSynced(true)
         newsReference.addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     val newsItems: List<News> = snapshot.children.map { dataSnapshot ->
